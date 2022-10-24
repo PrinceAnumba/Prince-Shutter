@@ -1,0 +1,293 @@
+body {
+background-color: #f9f9f9;
+}
+
+#parent {
+    height: 1000px;
+    background-image: url('../img/model1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -200px;
+    background-position-x: 120px;
+}
+
+#parent header {
+    font-family: mada;
+    padding: 60px 0px;
+}
+
+#parent header .logo h1 {
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#parent header nav {
+    float: right;
+}
+
+#parent header nav ul li {
+    float: left;
+    padding-left: 40px;
+}
+
+#parent header nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: lowercase;
+}
+
+#parent header nav ul li a i {
+    font-weight: 600;
+}
+
+#parent section {
+    position: relative;
+    top: 120px;
+}
+
+#parent section .title {
+    text-transform: capitalize;
+
+}
+
+#parent section .title h4 {
+    font-size: 14px;
+    font-family: mada;
+}
+
+#parent section .title .glitch .display {
+    position: relative;
+}
+
+#parent section .title h1 {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: lato;
+    margin-bottom: 30px;
+    line-height: 100px;
+}
+
+#parent section .content{
+    font-family: mada;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+#parent section .content p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#parent section .content h5 {
+    color: #aaaaaa;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+#parent section .btn {
+    display: flex;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#parent section .btn a{
+    display: flex;
+    color: crimson;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 8px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: all 250ms ease-in-out;
+}
+
+#parent section .btn a:first-child {
+    margin-right: 5px;
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+#parent section .btn a:last-child {
+    margin-right: 5px;
+    color: green;
+    border: 1px solid green;
+}
+
+#parent section .btn a:first-child:hover {
+    background-color: tomato;
+    color: white;
+}
+
+#parent section .btn a:last-child:hover {
+    background-color: green;
+    color: white;
+}
+
+#parent section aside{
+    transform-origin: right;
+    transform: rotate(90deg);
+    position: relative;
+    top: 600px;
+}
+
+#parent section aside ul li {
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+#parent section aside ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-family: mada;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 220px;
+    width: 100%;
+}
+
+footer .left {
+    background-color: #eeeeee;
+    width: 100%;
+    height: inherit;
+}
+
+footer .right {
+    background-color: #273238;
+    width: 45%;
+    height: inherit;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
+
+footer .left h1 {
+    padding-top: 80px;
+    font-size: 50px;
+    font-family: fira sans;
+}
+
+footer .left p {
+    padding-top: 15px;
+    font-size: 14px;
+    font-family: mada;
+}
+
+footer .left a {
+    text-decoration: none;
+    color: #6b6b6b;
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+footer .left a:hover {
+    color: black;
+}
+
+footer .foo {
+    position: relative;
+    z-index: 3;
+}
+
+footer .foo .pic {
+    height: 260px;
+    bottom: 40px;
+    left: 30px;
+    overflow: hidden;
+    width: 90%;
+}
+
+footer .btn {
+    position: relative;
+    bottom: 40px;
+    display: flex;
+
+}
+
+footer .btn button{
+    border: none;
+    background-color: #273238;
+    /* height: 40px;
+    width: 40px; */
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 15px;
+    font-weight: 600;
+}
+
+footer .btn button i{
+    font-weight: 600;
+}
+
+footer .btn button:hover {
+    background-color: #141a1d;
+}
+
+footer .text{
+    color: #ffffff;
+    margin-left: 15px;
+    line-height: 30px;
+    font-family: mada;
+}
+
+footer .text h4{
+    font-size: 11px;
+
+}
+
+footer .text p {
+    font-size: 22px;
+
+}
+
+footer .btn .swiper-button-next {
+    background-image: none;
+    right: 10px;
+    left: auto;
+}
+
+footer .btn .swiper-button-prev {
+    background-image: none;
+    right: 10px;
+    left: auto;
+}
+
+footer .btn .swiper-button-next {
+    position: static;
+    top: 0px;
+    width: inherit;
+    height: inherit;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer .btn .swiper-button-prev {
+    position: static;
+    top: 0px;
+    width: inherit;
+    height: inherit;
+    margin-top: 0;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
